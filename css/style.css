@@ -1,0 +1,44 @@
+.c1 {
+    color: #fb0090;
+}
+
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10%;
+  }
+
+.police1 {
+    font-family: montserrat;
+    text-shadow: 2px 2px black ;
+}
+
+.promotion {
+    text-decoration: line-through;
+}
+
+
+.card{
+    border: none;
+}
+
+.card-img{
+    width:100%;
+    height:100%;
+   
+}
+.card-img:hover{
+    transform: scale(1.06);
+}
+
+.gras{
+    font-weight: bold;
+}
+footer{
+    background-color: #222222;
+}
+
+.underline{
+    text-decoration: underline;
+}

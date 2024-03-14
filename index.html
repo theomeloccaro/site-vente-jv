@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body class="bg-body">
+    <header>
+        <div class="container d-none d-lg-block"> <!-- Entete pc -->
+            <div class="row align-items-center">
+                <div class="col-3 navbar-brand">
+                    <img src="images/logo.png" alt="Logo" class="navbar-brand" height="80">
+                </div>
+                <div class="col-3">
+                    <h1>Game Invader</h1>
+                </div>
+                <div class="col-2">
+                </div>
+                <div class="col-2">
+                </div>
+                <div class="col-1">
+                    <img src="images/panier.png" class="navbar-brand" height="30">
+                </div>
+                <div class="col-1">
+                    <img src="images/account.png" class="navbar-brand" height="30">
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg d-none d-lg-block mt-3 mb-3">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <nav class="navbar-nav mx-auto">
+                        <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link" href="#">Jeux</a>
+                        <a class="nav-link" href="#">A propos</a>
+                    </nav>
+                </div>
+                <div class="d-none d-md-flex align-items-center ms-4">
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Rechercher">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-outline-success">
+                                    Rechercher
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>         
+            </div> 
+        </nav>
+        <div class="container-fluid d-block d-lg-none sticky-top"> <!-- Entete mobile -->
+            <div class="row align-items-center">
+                <div class="row align-items-center">
+                    <div class="col-3">
+                        <nav class="navbar">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Jeux</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">A propos</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </nav>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-2 navbar-brand">
+                        <img src="images/logo.png" alt="Logo" class="navbar-brand" height="80">
+                    </div>
+                    <div class="col-2">
+                    </div>
+                    <div class="col-1">
+                        <img src="images/panier.png" class="navbar-brand" height="30">
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-1">
+                        <img src="images/account.png" class="navbar-brand" height="30">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid bg-image" style="background-image: url('../site/images/banniere.jpg')">
+            <p class="h1 text-center text-white my-auto police1"> Explorez notre catalogue de jeux vidéos !</p>
+        </div>
+        <div class="container d-none d-lg-block mt-5">  <!--Pc tendances-->
+            <div class="row mt-3">
+                <p class="h1"> Tendances actuelles</p>
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/wwe.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">WWE 2K24 <br>  49,99€ </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/tekken-8.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Tekken 8 <br> 49,99€ </h5>
+                        </div>
+                    </div>
+                </div><div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/cyberpunk-2077.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Cyberpunk 2077 <br> 49,99€ </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/helldivers.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Helldivers <br>  49,99€ </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/fifa.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">EA SPORTS FC 24 <br> 49,99€ </h5>
+                        </div>
+                    </div>
+                </div><div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/tcmf.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">The Crew Motorfest <br> 49,99€ </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid d-block d-lg-none mt-5">  <!--Mobile tendances-->
+            <div class="row">
+                <p class="h1"> Tendances actuelles</p>
+            </div>
+            <div class="row mt-3">
+                <div class="col-6">
+                    <div class="card">
+                        <img class="card-img" src="images/wwe.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h6 class="card-title">WWE 2K24 <br>  49,99€ </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img class="card-img" src="images/tekken-8.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Tekken 8 <br> 49,99€ </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <img class="card-img" src="images/cyberpunk-2077.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h6 class="card-title">Cyberpunk <br>  49,99€ </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img class="card-img" src="images/helldivers.jpg" alt="Card image cap" id="img-carte">
+                        <div class="card-body">
+                            <h6 class="card-title">Helldivers <br> 49,99€ </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        </div>
+        <div class="container d-none d-lg-block mt-5">    <!--Promos pc--->
+            <p class="h1"> Promotions</p>
+            <div class="row mt-3">
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/hl.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Hogwarts Legacy <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/sb.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Skull And Bones <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/ufc5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">UFC 5 <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/pd3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Payday 3 <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/ed.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Elden Ring <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img" src="images/wrc.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Ea Sports WRC <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid d-block d-lg-none mt-5">    <!--Promos mobile--->
+            <p class="h1"> Promotions</p>
+            <div class="row mt-3">
+                <div class="col-6">
+                    <div class="card">
+                        <img class="card-img" src="images/hl.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h6 class="card-title">Hogwarts Legacy <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img class="card-img" src="images/sb.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Skull And Bones <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-6">
+                    <div class="card">
+                        <img class="card-img" src="images/pd3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h6 class="card-title">Payday 3 <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img class="card-img" src="images/ed.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-title">Elden Ring <br>  <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid d-none d-lg-block mt-5">
+            <div class="row p-5">
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <p class="h3 text-white"> Game Invaders</p>
+                    <p class=" text-white "> Notre entreprise a été créé en 2012 en France par des passionnés.</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <p class="h3 text-white"> Liens</p>
+                    <nav class="navbar-nav text-white underline">
+                        <a class="text-white" aria-current="page" href="#">Accueil</a>
+                        <a  class="text-white" href="#">Jeux</a>
+                        <a class="text-white" href="#">A propos</a>
+                    </nav>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <p class="h3 text-white"> Contact</p>
+                    <i class='bx bxs-home text-white'> 123 Rue de la Maison, 7500 Paris, France</i>
+                    <i class='bx bxs-phone text-white' > +33 3 87 71 40 81</i>
+                    <i class='bx bxl-gmail text-white'> game.invaders@gmail.com</i>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+        <div class="container-fluid d-block d-lg-none mt-5 p-5 text-center">
+            <div class="row mt-3">
+                <div class="col-12">
+                    <p class="h3 text-white"> Game Invaders</p>
+                    <p class="text-white "> Notre entreprise a été créé en 2012 en France par des passionnés.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <p class="h3 text-white"> Liens</p>
+                    <nav class="navbar-nav text-white underline">
+                        <a class="text-white" aria-current="page" href="#">Accueil</a>
+                        <a  class="text-white" href="#">Jeux</a>
+                        <a class="text-white" href="#">A propos</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row mt-3 mb-3">
+                <div class="col-12">
+                    <p class="h3 text-white"> Contact</p>
+                    <i class='bx bxs-home text-white'> 123 Rue de la Maison, 7500 Paris, France</i> <br>
+                    <i class='bx bxs-phone text-white' > +33 3 87 71 40 81</i> <br> 
+                    <i class='bx bxl-gmail text-white'> game.invaders@gmail.com</i>
+                </div>
+            </div>
+                
+        </div>
+    </footer>
+</body>
+</html>
