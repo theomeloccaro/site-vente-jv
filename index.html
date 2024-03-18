@@ -43,7 +43,7 @@
                 <div class="d-none d-md-flex align-items-center ms-4">
                     <form class="form-inline">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Rechercher">
+                            <input type="text" class="form-control me-2" placeholder="Rechercher">
                             <div class="input-group-append">
                                 <button type="button" class="btn btn-outline-success">
                                     Rechercher
@@ -56,32 +56,31 @@
         </nav>
         <div class="container-fluid d-block d-lg-none sticky-top"> <!-- Entete mobile -->
             <div class="row align-items-center">
-                <div class="row align-items-center">
-                    <div class="col-3">
+                    <div class="col-1">
                         <nav class="navbar">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu">
                               <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                              <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                  <a class="nav-link" href="#">Accueil</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Jeux</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">A propos</a>
-                                </li>
-                              </ul>
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas-menu">
+                                <div class="offcanvas-header">
+                                    <p class="h2"> Menu</p>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <nav class="navbar-nav mx-auto">
+                                        <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                                        <a class="nav-link" href="#">Jeux</a>
+                                        <a class="nav-link" href="#">A propos</a>
+                                    </nav>
+                                </div>    
                             </div>
                           </nav>
                     </div>
                     <div class="col-2"></div>
-                    <div class="col-2 navbar-brand">
+                    <div class="col-1 navbar-brand">
                         <img src="images/logo.png" alt="Logo" class="navbar-brand" height="80">
                     </div>
-                    <div class="col-2">
+                    <div class="col-5">
                     </div>
                     <div class="col-1">
                         <img src="images/panier.png" class="navbar-brand" height="30">
@@ -95,9 +94,51 @@
         </div>
     </header>
     <main>
-        <div class="container-fluid bg-image" style="background-image: url('../site/images/banniere.jpg')">
-            <p class="h1 text-center text-white my-auto police1"> Explorez notre catalogue de jeux vidéos !</p>
-        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/banniere3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block d-lg-none">
+                    <p class="h4">Découvrez notre catalogue de jeux vidéos !</p>
+                </div>
+                <div class="carousel-caption d-none d-lg-block">
+                    <p class="h1">Découvrez notre catalogue de jeux vidéos !</p>
+                </div>
+            </div>
+              <div class="carousel-item">
+                <img src="images/banniere.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block d-lg-none">
+                    <p class="h4">En ce moment, jusqu'à 50% de réductions !</p>
+                </div>
+                <div class="carousel-caption d-none d-lg-block">
+                    <p class="h1">En ce moment, jusqu'à 50% de réductions !</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banniere2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block d-lg-none">
+                    <p class="h4">Plus de 1000 jeux disponibles sur toutes les plateformes !</p>
+                </div>
+                <div class="carousel-caption d-none d-lg-block">
+                    <p class="h1">Plus de 1000 jeux disponibles sur toutes les plateformes !</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
         <div class="container d-none d-lg-block mt-5">  <!--Pc tendances-->
             <div class="row mt-3">
                 <p class="h1"> Tendances actuelles</p>
@@ -292,7 +333,7 @@
         </div>
     </main>
     <footer>
-        <div class="container-fluid d-none d-lg-block mt-5">
+        <div class="container-fluid d-none d-lg-block mt-5"> <!-- Footer pc -->
             <div class="row p-5">
                 <div class="col-1"></div>
                 <div class="col-3">
@@ -311,14 +352,14 @@
                 <div class="col-1"></div>
                 <div class="col-3">
                     <p class="h3 text-white"> Contact</p>
-                    <i class='bx bxs-home text-white'> 123 Rue de la Maison, 7500 Paris, France</i>
-                    <i class='bx bxs-phone text-white' > +33 3 87 71 40 81</i>
+                    <i class='bx bxs-home text-white'> 123 Rue de la Maison, 7500 Paris, France</i> <br>
+                    <i class='bx bxs-phone text-white' > +33 3 87 71 40 81</i> <br>
                     <i class='bx bxl-gmail text-white'> game.invaders@gmail.com</i>
                 </div>
                 <div class="col-1"></div>
             </div>
         </div>
-        <div class="container-fluid d-block d-lg-none mt-5 p-5 text-center">
+        <div class="container-fluid d-block d-lg-none mt-5 p-5 text-center"> <!-- Footer mobile -->
             <div class="row mt-3">
                 <div class="col-12">
                     <p class="h3 text-white"> Game Invaders</p>
