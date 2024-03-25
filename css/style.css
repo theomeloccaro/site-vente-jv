@@ -1,17 +1,22 @@
+.pol1{
+    font-family: "Roboto";
+}
+.pol2{
+    font-family: "Orbitron";
+}
+
+.carousel-caption{
+    font-family: "Orbitron";
+}
+
+
 .c1 {
     color: #fb0090;
 }
 
-.bg-image{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 10%;
-  }
 
-.police1 {
-    font-family: montserrat;
-    text-shadow: 2px 2px black ;
+.nav-link {
+    font-family: "Orbitron";
 }
 
 .promotion {
@@ -42,3 +47,4 @@ footer{
 .underline{
     text-decoration: underline;
 }
+
