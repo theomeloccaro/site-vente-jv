@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body class="bg-body">
+    <header>
+      <!-- Entete pc -->
+      <div class="d-none d-lg-flex align-items-center container">
+        <div class="me-5 p-2">
+          <img
+            src="images/logo.png"
+            alt="logo"
+            height="50"
+            class="navbar-brand"
+          />
+        </div>
+        <div class="me-auto">
+          <h1 class="pol2">Game Invaders</h1>
+        </div>
+        <div class="ms-auto">
+          <img
+            src="images/panier.png"
+            alt="panier"
+            height="30"
+            class="navbar-brand"
+          />
+        </div>
+        <div class="ms-5 p-2">
+          <img
+            src="images/account.png"
+            alt="compte"
+            height="30"
+            class="navbar-brand"
+          />
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg d-none d-lg-block mt-3 mb-3">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <nav class="navbar-nav mx-auto">
+              <a class="nav-link" href="index.html">Accueil</a>
+              <a class="nav-link" href="jeux.html">Jeux</a>
+              <a class="nav-link" href="">A propos</a>
+            </nav>
+          </div>
+          <div class="d-none d-md-flex align-items-center ms-4">
+            <form class="form-inline pol2">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control me-2"
+                  placeholder="Rechercher"
+                />
+                <div class="input-group-append">
+                  <button type="button" class="btn btn-outline-success">
+                    Rechercher
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Entete mobile -->
+      <div class="d-flex d-lg-none align-items-center">
+        <div class="me-5 p-2">
+          <nav class="navbar">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvas-menu"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvas-menu"
+            >
+              <div class="offcanvas-header">
+                <p class="h1 pol2">Menu</p>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <nav class="navbar-nav">
+                  <a class="nav-link" href="index.html">Accueil</a>
+                  <a class="nav-link" href="jeux.html">Jeux</a>
+                  <a class="nav-link" href="#">A propos</a>
+                  <form class="form-inline pol2">
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control me-2"
+                        placeholder="Rechercher"
+                      />
+                      <div class="input-group-append">
+                        <button type="button" class="btn btn-outline-success">
+                          Rechercher
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </nav>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="me-auto">
+          <img
+            src="images/logo.png"
+            alt="logo"
+            height="50"
+            class="navbar-brand"
+          />
+        </div>
+        <div class="ms-auto">
+          <img
+            src="images/panier.png"
+            alt="panier"
+            height="30"
+            class="navbar-brand"
+          />
+        </div>
+        <div class="ms-5 p-2">
+          <img
+            src="images/account.png"
+            alt="compte"
+            height="30"
+            class="navbar-brand"
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Page pc-->
+      <div class="container d-none d-lg-block mt-5">
+        <div class="row">
+          <div class="col-6">
+            <img src="" class="product-image1 img-fluid" />
+          </div>
+          <div class="col-6 mx-auto p-2">
+            <h1 class="product-name pol2"></h1>
+            <p class=" product-price h2 pol2 mt-3 gras"></p>
+            <div class="mt-5">
+              <button type="button" class="btn btn-primary pol1">
+                Ajouter au panier
+              </button>
+            </div>
+            <div class="d-none d-xl-block mt-5 text-start">
+              <p class="product-informations h6 pol1">
+              </p>
+            </div>
+          </div>
+          <div class="d-none d-lg-block d-xl-none row mt-3">
+            <div class="col-12">
+              <div class="text-start">
+                <p class="product-informations h6 pol1">
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container d-none d-lg-block mt-5">
+          <div class="row mt-5">
+            <p class="h1 pol2">Visuels</p>
+          </div>
+          <div class="row">
+            <div class="ratio ratio-16x9 mt-3">
+              <iframe class="product-video"
+                src=""
+                title="YouTube video"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-6">
+              <img class="product-image2 img-fluid" src="" alt="" />
+            </div>
+            <div class="col-6">
+              <img class="product-image3 img-fluid" src="" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <p class="h1 pol2 mb-3">À propos</p>
+          <div class="col-12">
+            <p class="product-description fs-6 pol1">
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Page mobile-->
+      <div class="container-fluid mt-5 d-block d-lg-none">
+        <div class="row">
+          <div class="col text-center">
+            <img src="" class="product-image1 img-fluid" />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <h1 class="product-name pol2 text-center"></h1>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <p class="product-price h2 pol2 text-center gras"></p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col text-center">
+            <button type="button" class="btn btn-primary pol1">
+              Ajouter au panier
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-5 d-block d-lg-none">
+        <div class="row">
+          <p class="h1 pol2">Visuels</p>
+        </div>
+        <div class="row">
+          <div class="ratio ratio-16x9 mt-3">
+            <iframe class="product-video"
+              src=""
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <img class="product-image2 img-fluid" src="" alt="" />
+          </div>
+          <div class="col">
+            <img class="product-image3 img-fluid" src="" alt="" />
+        </div>
+      </div>
+      <div class="container-fluid mt-5">
+        <div class="row">
+          <p class="h1 pol2 mb-3">À propos</p>
+          <div class="col">
+            <p class="product-description fs-6 pol1">
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- Footer pc -->
+      <div class="container-fluid d-none d-lg-block mt-5">
+        <div class="row p-5">
+          <div class="col-1"></div>
+          <div class="col-3">
+            <p class="h3 text-white">Game Invaders</p>
+            <p class="text-white">
+              Notre entreprise a été créé en 2012 en France par des passionnés.
+            </p>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-2">
+            <p class="h3 text-white">Liens</p>
+            <nav class="navbar-nav text-white underline">
+              <a class="text-white" href="#">Accueil</a>
+              <a class="text-white" href="#">Jeux</a>
+              <a class="text-white" href="#">A propos</a>
+            </nav>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-3">
+            <p class="h3 text-white">Contact</p>
+            <i class="bx bxs-home text-white">
+              123 Rue de la Maison, 7500 Paris, France</i
+            >
+            <br />
+            <i class="bx bxs-phone text-white"> +33 3 87 71 40 81</i> <br />
+            <i class="bx bxl-gmail text-white"> game.invaders@gmail.com</i>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+      <!-- Footer mobile -->
+      <div class="container-fluid d-block d-lg-none mt-5 p-5 text-center">
+        <div class="row mt-3">
+          <div class="col-12">
+            <p class="h3 text-white">Game Invaders</p>
+            <p class="text-white">
+              Notre entreprise a été créé en 2012 en France par des passionnés.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <p class="h3 text-white">Liens</p>
+            <nav class="navbar-nav text-white underline">
+              <a class="text-white" href="#">Accueil</a>
+              <a class="text-white" href="#">Jeux</a>
+              <a class="text-white" href="#">A propos</a>
+            </nav>
+          </div>
+        </div>
+        <div class="row mt-4 mb-3">
+          <div class="col-12">
+            <p class="h3 text-white">Contact</p>
+            <i class="bx bxs-home text-white">
+              123 Rue de la Maison, 7500 Paris, France</i
+            >
+            <br />
+            <i class="bx bxs-phone text-white"> +33 3 87 71 40 81</i> <br />
+            <i class="bx bxl-gmail text-white"> game.invaders@gmail.com</i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/product.js"></script>
+  </body>
+</html>

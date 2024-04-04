@@ -13,11 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
-    <script src="js/bootstrap.min.js"></script>
 </head>
 <body class="bg-body">
     <header>
-        <div class="d-none d-lg-flex align-items-center container"> <!-- Entete pc -->
+        <div class="d-none d-lg-flex align-items-center  container"> <!-- Entete pc -->
             <div class="me-5 p-2">
                 <img src="images/logo.png" alt="logo" height="50" class="navbar-brand">
             </div>
@@ -25,17 +24,17 @@
                 <h1 class="pol2"> Game Invaders </h1>
             </div>
             <div class="ms-auto">
-                <img src="images/panier.png" alt="logo" height="30" class="navbar-brand">
+                <img src="images/panier.png" alt="panier" height="30" class="navbar-brand">
             </div>
             <div class="ms-5 p-2">
-                <img src="images/account.png" alt="logo" height="30" class="navbar-brand">
+                <img src="images/account.png" alt="compte" height="30" class="navbar-brand">
             </div>
         </div>
         <nav class="navbar navbar-expand-lg d-none d-lg-block mt-3 mb-3">
             <div class="container">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <nav class="navbar-nav mx-auto">
-                        <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                        <a class="nav-link" href="index.html">Accueil</a>
                         <a class="nav-link" href="jeux.html">Jeux</a>
                         <a class="nav-link" href="">A propos</a>
                     </nav>
@@ -67,7 +66,7 @@
                         </div>
                         <div class="offcanvas-body">
                             <nav class="navbar-nav">
-                                <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                                <a class="nav-link" href="index.html">Accueil</a>
                                 <a class="nav-link" href="jeux.html">Jeux</a>
                                 <a class="nav-link" href="#">A propos</a>
                                 <form class="form-inline pol2">
@@ -89,10 +88,10 @@
                 <img src="images/logo.png" alt="logo" height="50" class="navbar-brand">
             </div>
             <div class="ms-auto">
-                <img src="images/panier.png" alt="logo" height="30" class="navbar-brand">
+                <img src="images/panier.png" alt="panier" height="30" class="navbar-brand">
             </div>
             <div class="ms-5 p-2">
-                <img src="images/account.png" alt="logo" height="30" class="navbar-brand">
+                <img src="images/account.png" alt="compte" height="30" class="navbar-brand">
             </div>
         </div>
     </header>
@@ -107,7 +106,7 @@
               <div class="carousel-item active">
                 <img src="images/banniere3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-block d-lg-none">
-                    <p class="h4">Découvrez notre catalogue de jeux vidéos !</p>
+                    <p class="h4">Découvrez nos jeux vidéos !</p>
                 </div>
                 <div class="carousel-caption d-none d-lg-block">
                     <p class="h2">Découvrez notre catalogue de jeux vidéos !</p>
@@ -150,7 +149,9 @@
             <div class="row">
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/wwe.jpg" alt="Card image cap">
+                        <a href="product.html?id=wwe">
+                            <img class="card-img" src="images/wwe.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                           <h5 class="card-title">WWE 2K24 <br>  49,99€ </h5>
                         </div>
@@ -158,14 +159,18 @@
                 </div>
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/tekken-8.jpg" alt="Card image cap">
+                        <a href="product.html?id=tekken8">
+                            <img class="card-img" src="images/tekken-8.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <h5 class="card-title">Tekken 8 <br> 49,99€ </h5>
                         </div>
                     </div>
                 </div><div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/cyberpunk-2077.jpg" alt="Card image cap">
+                        <a href="product.html?id=cp77">
+                            <img class="card-img" src="images/cyberpunk-2077.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <h5 class="card-title">Cyberpunk 2077 <br> 49,99€ </h5>
                         </div>
@@ -175,22 +180,28 @@
             <div class="row">
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/helldivers.jpg" alt="Card image cap">
+                        <a href="product.html?id=hd">
+                            <img class="card-img" src="images/helldivers.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
-                          <h5 class="card-title">Helldivers <br>  49,99€ </h5>
+                          <h5 class="card-title">Helldivers 2 <br>  49,99€ </h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/fifa.jpg" alt="Card image cap">
+                        <a href="product.html?id=fc24">
+                            <img class="card-img" src="images/fifa.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <h5 class="card-title">EA SPORTS FC 24 <br> 49,99€ </h5>
                         </div>
                     </div>
                 </div><div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/tcmf.jpg" alt="Card image cap">
+                        <a href="product.html?id=tcmf">
+                            <img class="card-img" src="images/tcmf.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <h5 class="card-title">The Crew Motorfest <br> 49,99€ </h5>
                         </div>
@@ -205,7 +216,9 @@
             <div class="row mt-3">
                 <div class="col-6">
                     <div class="card">
-                        <img class="card-img" src="images/wwe.jpg" alt="Card image cap">
+                        <a href="product.html?id=wwe">
+                            <img class="card-img" src="images/wwe.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                           <h6 class="card-title">WWE 2K24 <br>  49,99€ </h6>
                         </div>
@@ -223,7 +236,9 @@
             <div class="row">
                 <div class="col-6">
                     <div class="card">
-                        <img class="card-img" src="images/cyberpunk-2077.jpg" alt="Card image cap">
+                        <a href="product.html?id=cp77">
+                            <img class="card-img" src="images/cyberpunk-2077.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                           <h6 class="card-title">Cyberpunk 2077 <br>  49,99€ </h6>
                         </div>
@@ -231,7 +246,9 @@
                 </div>
                 <div class="col-6">
                     <div class="card">
-                        <img class="card-img" src="images/helldivers.jpg" alt="Card image cap" id="img-carte">
+                        <a href="product.html?id=hd">
+                            <img class="card-img" src="images/helldivers.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <h6 class="card-title">Helldivers <br> 49,99€ </h6>
                         </div>
@@ -241,7 +258,9 @@
             <div class="row">
                 <div class="col-6">
                     <div class="card">
-                        <img class="card-img" src="images/fifa.jpg" alt="Card image cap">
+                        <a href="product.html?id=fc24">
+                            <img class="card-img" src="images/fifa.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                           <h6 class="card-title">EA Sports FC 24 <br>  49,99€ </h6>
                         </div>
@@ -249,7 +268,9 @@
                 </div>
                 <div class="col-6">
                     <div class="card">
-                        <img class="card-img" src="images/tcmf.jpg" alt="Card image cap" id="img-carte">
+                        <a href="product.html?id=tcmf">
+                            <img class="card-img" src="images/tcmf.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <h6 class="card-title">The Crew Motorfest <br> 49,99€ </h6>
                         </div>
@@ -262,7 +283,9 @@
             <div class="row mt-3">
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/hl.jpg" alt="Card image cap">
+                        <a href="product.html?id=hogwarts">
+                            <img class="card-img" src="images/hl.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                           <h5 class="card-title">Hogwarts Legacy <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
                         </div>
@@ -270,7 +293,9 @@
                 </div>
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/sb.jpg" alt="Card image cap">
+                        <a href="product.html?id=sb">
+                            <img class="card-img" src="images/sb.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <h5 class="card-title">Skull And Bones <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
                         </div>
@@ -278,7 +303,9 @@
                 </div>
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/ufc5.jpg" alt="Card image cap">
+                        <a href="product.html?id=ufc5">
+                            <img class="card-img" src="images/ufc5.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <h5 class="card-title">UFC 5 <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
                         </div>
@@ -288,7 +315,9 @@
             <div class="row mt-3">
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/pd3.jpg" alt="Card image cap">
+                        <a href="product.html?id=payday3">
+                            <img class="card-img" src="images/pd3.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                           <h5 class="card-title">Payday 3 <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
                         </div>
@@ -296,7 +325,9 @@
                 </div>
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/ed.jpg" alt="Card image cap">
+                        <a href="product.html?id=ed">
+                            <img class="card-img" src="images/ed.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <h5 class="card-title">Elden Ring <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
                         </div>
@@ -304,9 +335,11 @@
                 </div>
                 <div class="col-4">
                     <div class="card">
-                        <img class="card-img" src="images/wrc.jpg" alt="Card image cap">
+                        <a href="product.html?id=wrc">
+                            <img class="card-img" src="images/wrc.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
-                            <h5 class="card-title">Ea Sports WRC <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
+                            <h5 class="card-title">EA SPORTS WRC<br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h5>
                         </div>
                     </div>
                 </div>
@@ -317,7 +350,9 @@
             <div class="row mt-3">
                 <div class="col-6">
                     <div class="card">
-                        <img class="card-img" src="images/hl.jpg" alt="Card image cap">
+                        <a href="product.html?id=hogwarts">
+                            <img class="card-img" src="images/hl.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                           <h6 class="card-title">Hogwarts Legacy <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h6>
                         </div>
@@ -325,7 +360,9 @@
                 </div>
                 <div class="col-6">
                     <div class="card">
-                        <img class="card-img" src="images/sb.jpg" alt="Card image cap">
+                        <a href="product.html?id=sb">
+                            <img class="card-img" src="images/sb.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <h6 class="card-title">Skull And Bones <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h6>
                         </div>
@@ -335,7 +372,9 @@
             <div class="row mt-3">
                 <div class="col-6">
                     <div class="card">
-                        <img class="card-img" src="images/ufc5.jpg" alt="Card image cap">
+                        <a href="product.html?id=ufc5">
+                            <img class="card-img" src="images/ufc5.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                           <h6 class="card-title">UFC 5 <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h6>
                         </div>
@@ -343,7 +382,9 @@
                 </div>
                 <div class="col-6">
                     <div class="card">
-                        <img class="card-img" src="images/pd3.jpg" alt="Card image cap">
+                        <a href="product.html?id=payday3">
+                            <img class="card-img" src="images/pd3.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                             <h6 class="card-title">Payday 3 <br>  <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h6>
                         </div>
@@ -353,7 +394,9 @@
             <div class="row mt-3">
                 <div class="col-6">
                     <div class="card">
-                        <img class="card-img" src="images/ed.jpg" alt="Card image cap">
+                        <a href="product.html?id=ed">
+                            <img class="card-img" src="images/ed.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
                           <h6 class="card-title">Elden Ring <br> <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h6>
                         </div>
@@ -361,9 +404,11 @@
                 </div>
                 <div class="col-6">
                     <div class="card">
-                        <img class="card-img" src="images/wrc.jpg" alt="Card image cap">
+                        <a href="product.html?id=wrc">
+                            <img class="card-img" src="images/wrc.jpg" alt="Card image cap">
+                        </a>
                         <div class="card-body">
-                            <h6 class="card-title">EA Sports WRC <br>  <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h6>
+                            <h6 class="card-title">EA SPORTS WRC <br>  <span class="card-title promotion"> 49,99€</span> &nbsp; 29,99€ </h6>
                         </div>
                     </div>
                 </div>
@@ -382,8 +427,8 @@
                 <div class="col-2">
                     <p class="h3 text-white"> Liens</p>
                     <nav class="navbar-nav text-white underline">
-                        <a class="text-white" aria-current="page" href="#">Accueil</a>
-                        <a  class="text-white" href="#">Jeux</a>
+                        <a class="text-white" href="#">Accueil</a>
+                        <a class="text-white" href="#">Jeux</a>
                         <a class="text-white" href="#">A propos</a>
                     </nav>
                 </div>
@@ -408,8 +453,8 @@
                 <div class="col-12">
                     <p class="h3 text-white"> Liens</p>
                     <nav class="navbar-nav text-white underline">
-                        <a class="text-white" aria-current="page" href="#">Accueil</a>
-                        <a  class="text-white" href="#">Jeux</a>
+                        <a class="text-white" href="#">Accueil</a>
+                        <a class="text-white" href="#">Jeux</a>
                         <a class="text-white" href="#">A propos</a>
                     </nav>
                 </div>
@@ -425,5 +470,6 @@
                 
         </div>
     </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
