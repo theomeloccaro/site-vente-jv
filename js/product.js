@@ -144,6 +144,90 @@ const products = {
     image3: "images/wrc3.jpg",
     video: "https://www.youtube.com/embed/JFy_cWefBtQ",
   },
+  ron: {
+    name: "Ready or Not",
+    description:
+      "Ready or Not est un FPS Tactique dans lequel vous incarnez un membre du SWAT dont la mission est d'intervenir dans des situations critiques et tendues. Le jeu dispose d'un système de balistique développé ainsi qu'une gestion des dégâts réaliste. Le but est de retranscrire le plus de réalisme possible dans le jeu.",
+    informations:
+      "Développeur: VOID Interactive\nEditeur: VOID Interactive\nDate de sortie: 13 décembre 2023\nGenre:	Jeux solo, Action, Aventure",
+    price: "49,99€",
+    image1: "images/ron.jpg",
+    image2: "images/ron2.jpg",
+    image3: "images/ron3.jpg",
+    video: "https://www.youtube.com/embed/lLNoftAmKr0",
+  },
+  pd: {
+    name: "Pacific Drive",
+    description:
+      "Pacific Drive est le premier jeu d'IronWood qui mêle conduite et jeu de survie. Les routes des Etats-Unis ne sont pas toujours très sûres, surtout quand on s'aventure sur des celles qui sont abandonnées depuis des décennies. Il faudra faire attention à vous pour ne pas y laisser votre peau..",
+    informations:
+      "Développeur: Ironwood Studios\nEditeur: Kepler Interactive, Ironwood Studios\nDate de sortie: 22 février 2024\nGenre:	Jeux solo, Action, Aventure, Course",
+    price: "49,99€",
+    image1: "images/pd.jpg",
+    image2: "images/pd-2.jpg",
+    image3: "images/pd-3.jpg",
+    video: "https://www.youtube.com/embed/1KOb5AIeTLc",
+  },
+  fm: {
+    name: "Forza Motorsport",
+    description:
+      "Forza Motorsport est le nouveau titre de la licence de jeux de course de Microsoft. Après sept épisodes numérotés, cet épisode promet un nouveau moteur de jeu capable de supporter le Raytracing pour un rendu en 4K, 60 FPS.",
+    informations:
+      "Développeur:	Turn 10 Studios, Turn 10\nEditeur: Xbox Game Studios, Microsoft Game Studios\nDate de sortie:	10 octobre 2023\nGenre:	Multijoueur, Course, Jeux solo",
+    price: "49,99€",
+    image1: "images/fm.jpg",
+    image2: "images/fm2.jpg",
+    image3: "images/fm3.jpg",
+    video: "https://www.youtube.com/embed/yJumrR_bbg0",
+  },
+  gr2: {
+    name: "Ghostrunner 2",
+    description:
+      "Ghostrunner 2 est un jeu vidéo d'action et de plateforme à la caméra subjective. Particulièrement exigeant et se basant sur des niveaux linéaires à traverser, souvent truffé d'ennemis, le joueur incarne un ghostrunner, une sorte de ninja cybernétique capable de sauter, trancher et glisser tout en profitant de capacités futuristes. Pour ce deuxième jeu, il pourra même contrôler une moto.",
+    informations:
+      "Développeur:	One More Level\nEditeur: 505 Games\nDate de sortie: 26 octobre 2023\nGenre:	Jeux solo, Action, Aventure",
+    price: "49,99€",
+    image1: "images/gr2.jpg",
+    image2: "images/gr2-2.jpg",
+    image3: "images/gr2-3.jpg",
+    video: "https://www.youtube.com/embed/mABnow5CUSo",
+  },
+  smw: {
+    name: "Super Mario Bros. Wonder",
+    description:
+      "Super Mario Bros. Wonder est un jeu de plateforme en deux dimensions qui se déroule dans l'univers de Mario. Cette aventure du célèbre plombier italien moustachu apporte de nouveaux pouvoirs et des fonctionnalités inédites, le tout dans une direction artistique originale. Le jeu est jouable en multijoueur avec des personnages comme Luigi, Peach, Toad ou encore Daisy.",
+    informations:
+      "Développeur:	Nintendo\nEditeur: Nintendo\nDate de sortie: 20 octobre 2023\nGenre: Aventure, Plates-formes",
+    price: "49,99€",
+    image1: "images/smw.jpg",
+    image2: "images/smw2.jpg",
+    image3: "images/smw3.jpg",
+    video: "https://www.youtube.com/embed/XvQNlGKNC6o",
+  },
+  sp: {
+    name: "South Park: Snow Day !",
+    description:
+      "South Park : Snow Day ! est un jeu d'action en 3D dans le monde de South Park. Alors que la ville est en proie à la neige, Cartman, Stan, Kenny, Kyle et le joueur vont devoir la sauver. Jusqu'à quatre joueurs peuvent jouer ensemble dans cette expérience pensée avant tout pour la coopération.",
+    informations:
+      "Développeur:	Question\nEditeur: THQ Nordic\nDate de sortie: 26 mars 2024\nGenre:	Jeux solo, Action, Aventure",
+    price: "49,99€",
+    image1: "images/sp.jpg",
+    image2: "images/sp2.jpg",
+    image3: "images/sp3.jpg",
+    video: "https://www.youtube.com/embed/fQKylgwA0ys",
+  },
+  fh: {
+    name: "For Honor",
+    description:
+      "For Honor est un TPS à l'ère médiévale, où les joueurs peuvent incarner un chevalier, un viking ou un samouraï et affronter leurs adversaires dans un mode solo ou un multijoueur compétitif. Chaque faction possède ses propres particularités et avantages.",
+    informations:
+      "Développeur:	Ubisoft Montreal, Blue Byte, Ubisoft Toronto, Ubisoft Quebec\nEditeur: Ubisoft\nDate de sortie: 14 mars 2024\nGenre:	Jeux solo, Action",
+    price: "49,99€",
+    image1: "images/fh.jpg",
+    image2: "images/fh2.jpg",
+    image3: "images/fh3.jpg",
+    video: "https://www.youtube.com/embed/cBzhMK22XRs",
+  },
 };
 
 // Fonction pour récupérer les informations du produit
